@@ -1,0 +1,12 @@
+vagrant ssh => levanta la maquina remota
+cd /vagrant => ubicacion que estan sincronizada con nuestra maquina fisica
+python -m venv ~/env => crea un entorno virtual de python
+source ~/env/bin/activate => activa el entorno virtua
+deactivate => desactiva el entorno virtua
+*activa el venv
+django
+djangorestframework
+pip install -r requirements.txt => para instalar a raiz de un doc de requerimientos
+django-admin.py startproject profiles_project . => inicia un proyecto en django y en el mismo nivel
+python manage.py startapp profiles_api => crea una nueva aplicacion dentro del proyecto de django 
+python manage.py runserver 0.0.0.0:8000
